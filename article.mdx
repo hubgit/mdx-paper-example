@@ -1,0 +1,29 @@
+import { Bibliography, Cite, Equation, Figure } from 'mdx-paper'
+import smoke from './data/smoke.jpg'
+
+# Introduction
+
+This is the introduction <Cite>saad2013supporting;qiao2013cociter</Cite>.
+
+# Results
+
+These are the results <Cite>qiao2013cociter;rind2017pubviz</Cite>.
+
+This is an example of an equation: <Equation tex="\int_0^\infty x^2 dx"/>.
+
+<Figure
+  label={'Figure 1'}
+  title={'An example figure'}
+  caption={'This is an example figure.'}
+>
+  <img src={smoke} alt={'smoke'}/>
+</Figure>
+
+# Discussion
+
+This is the discussion <Cite>qiao2013cociter;saad2013supporting</Cite>.
+
+# Bibliography
+
+<Bibliography/>
+

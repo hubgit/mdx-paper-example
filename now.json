@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "mdx-paper-example",
+  "alias": ["mdx-paper-example"],
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }]
+}

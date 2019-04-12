@@ -1,0 +1,14 @@
+{
+  "name": "mdx-paper-example",
+  "private": true,
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "article.mdx",
+  "dependencies": {
+    "mdx-paper": "^0.1.0-alpha"
+  },
+  "scripts": {
+    "dev": "mdx-paper --references=references.bib",
+    "now-build": "mdx-paper build --references=references.bib"
+  }
+}
