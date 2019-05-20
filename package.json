@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "article.mdx",
   "dependencies": {
-    "mdx-paper": "^0.1.2"
+    "mdx-paper": "^0.3.0"
   },
   "scripts": {
     "dev": "mdx-paper --references=references.bib",

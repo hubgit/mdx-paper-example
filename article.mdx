@@ -1,15 +1,17 @@
-import { Bibliography, Cite, Equation, Figure } from 'mdx-paper'
+import { Bibliography, InlineEquation, Figure } from 'mdx-paper'
 import smoke from './data/smoke.jpg'
 
 # Introduction
 
-This is the introduction <Cite>saad2013supporting;qiao2013cociter</Cite>.
+This is the introduction [@saad2013supporting;@qiao2013cociter].
 
 # Results
 
-These are the results <Cite>qiao2013cociter;rind2017pubviz</Cite>.
+These are the results [@qiao2013cociter;@rind2017pubviz].
 
-This is an example of an equation: <Equation tex="\int_0^\infty x^2 dx"/>.
+This is an example of an inline equation: <InlineEquation tex="\int_0^\infty x^2 dx"/>.
+
+This is a subscript: CO~2~.
 
 <Figure
   label={'Figure 1'}
@@ -21,7 +23,7 @@ This is an example of an equation: <Equation tex="\int_0^\infty x^2 dx"/>.
 
 # Discussion
 
-This is the discussion <Cite>qiao2013cociter;saad2013supporting</Cite>.
+This is the discussion [@qiao2013cociter;@saad2013supporting].
 
 # Bibliography
 
