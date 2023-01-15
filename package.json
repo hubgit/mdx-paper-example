@@ -4,11 +4,12 @@
   "version": "0.0.1",
   "license": "MIT",
   "main": "article.mdx",
+  "type": "module",
   "dependencies": {
-    "mdx-paper": "^0.3.1"
+    "mdx-paper": "^0.4.2"
   },
   "scripts": {
     "dev": "mdx-paper --references=references.bib",
-    "now-build": "mdx-paper build --references=references.bib"
+    "build": "mdx-paper build --references=references.bib"
   }
 }
